@@ -16,7 +16,7 @@ SRCS = modbus_control.cpp main.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 # Executable name
-TARGET = modbus_control
+TARGET = modbus_test
 
 # Get Python library path and name
 PYTHON_VERSION = $(shell python3 -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')")

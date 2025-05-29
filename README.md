@@ -9,10 +9,8 @@ This tool allows you to test the throughput of both ModbusTCP and ModbusRTU devi
 
 ## Building
 
-To build the tool, run:
-
 ```bash
-g++ -std=c++11 -o modbus_test main.cpp ../crane-car-read-modbus/modbus_control.cpp -lmodbus -pthread
+make
 ```
 
 This will create the executable `modbus_test`.
