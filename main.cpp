@@ -16,7 +16,7 @@ struct TestConfig {
     int port = 502;                 // Default ModbusTCP port
     // RTU parameters
     std::string device = "/dev/ttyUSB0"; // Default serial device
-    int baudRate = 115200;            // Default baud rate
+    int baudRate = 9600;            // Default baud rate
     char parity = 'N';              // Default parity (N, E, O)
     int dataBits = 8;               // Default data bits
     int stopBits = 1;               // Default stop bits
